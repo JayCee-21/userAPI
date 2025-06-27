@@ -1,4 +1,4 @@
-export * from './userAPI/userController.js'
-export * from './productAPI/productController.js'
-export * from './cartAPI/createCart.js'
-export * from './authAPI/authController.js'
+export { default as userRoute} from './userRoute.js'
+export { default as productRoute} from './productRoute.js'
+export { default as authRoute} from './authRoute.js'
+export { default as cartRoute} from './cartRoute.js'
