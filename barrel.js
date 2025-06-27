@@ -1,3 +1,4 @@
-export * from './userSchema.js'
-export * from './productSchema.js'
-export * from './cartSchema.js'
+export * from './userAPI/userController.js'
+export * from './productAPI/productController.js'
+export * from './cartAPI/createCart.js'
+export * from './authAPI/authController.js'
